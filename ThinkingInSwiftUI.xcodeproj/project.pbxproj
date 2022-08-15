@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFA668CA28AA69EF00290097 /* MeasureBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668C928AA69EF00290097 /* MeasureBehavior.swift */; };
+		FFA668CC28AA785200290097 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CB28AA785200290097 /* Triangle.swift */; };
+		FFA668CF28AA891A00290097 /* TapMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CE28AA891A00290097 /* TapMeButton.swift */; };
+		FFA668D228AA8E5C00290097 /* PointerSizeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668D128AA8E5C00290097 /* PointerSizeKey.swift */; };
+		FFA668D528AA900600290097 /* MyNavigationTitleKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668D428AA900600290097 /* MyNavigationTitleKey.swift */; };
+		FFA668D728AA90C300290097 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668D628AA90C300290097 /* MyNavigationView.swift */; };
 		FFF6C74F28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C74E28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift */; };
-		FFF6C75128A4F12B0022C3FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C75028A4F12B0022C3FD /* ContentView.swift */; };
+		FFF6C75128A4F12B0022C3FD /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C75028A4F12B0022C3FD /* Knob.swift */; };
 		FFF6C75328A4F12F0022C3FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF6C75228A4F12F0022C3FD /* Assets.xcassets */; };
 		FFF6C75628A4F12F0022C3FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF6C75528A4F12F0022C3FD /* Preview Assets.xcassets */; };
+		FFF6C75D28A537980022C3FD /* KnobShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C75C28A537980022C3FD /* KnobShape.swift */; };
+		FFF6C75F28A538A10022C3FD /* KnobContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C75E28A538A10022C3FD /* KnobContentView.swift */; };
+		FFF6C76C28A652060022C3FD /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C76B28A652060022C3FD /* Photo.swift */; };
+		FFF6C76E28A653CE0022C3FD /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C76D28A653CE0022C3FD /* Remote.swift */; };
+		FFF6C77028A65CCC0022C3FD /* LoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C76F28A65CCC0022C3FD /* LoadingError.swift */; };
+		FFF6C77228A660850022C3FD /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C77128A660850022C3FD /* ListView.swift */; };
+		FFF6C77428A665070022C3FD /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C77328A665070022C3FD /* PhotoView.swift */; };
+		FFF6C77B28A69EC40022C3FD /* ColorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C77A28A69EC40022C3FD /* ColorKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FFA668C928AA69EF00290097 /* MeasureBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureBehavior.swift; sourceTree = "<group>"; };
+		FFA668CB28AA785200290097 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		FFA668CE28AA891A00290097 /* TapMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeButton.swift; sourceTree = "<group>"; };
+		FFA668D128AA8E5C00290097 /* PointerSizeKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerSizeKey.swift; sourceTree = "<group>"; };
+		FFA668D428AA900600290097 /* MyNavigationTitleKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationTitleKey.swift; sourceTree = "<group>"; };
+		FFA668D628AA90C300290097 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		FFF6C74B28A4F12B0022C3FD /* ThinkingInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkingInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF6C74E28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingInSwiftUIApp.swift; sourceTree = "<group>"; };
-		FFF6C75028A4F12B0022C3FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFF6C75028A4F12B0022C3FD /* Knob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
 		FFF6C75228A4F12F0022C3FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFF6C75528A4F12F0022C3FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFF6C75C28A537980022C3FD /* KnobShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobShape.swift; sourceTree = "<group>"; };
+		FFF6C75E28A538A10022C3FD /* KnobContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobContentView.swift; sourceTree = "<group>"; };
+		FFF6C76B28A652060022C3FD /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		FFF6C76D28A653CE0022C3FD /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		FFF6C76F28A65CCC0022C3FD /* LoadingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingError.swift; sourceTree = "<group>"; };
+		FFF6C77128A660850022C3FD /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		FFF6C77328A665070022C3FD /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		FFF6C77A28A69EC40022C3FD /* ColorKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +60,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FFA668C828AA69D200290097 /* C4 - Layout */ = {
+			isa = PBXGroup;
+			children = (
+				FFA668C928AA69EF00290097 /* MeasureBehavior.swift */,
+				FFA668CB28AA785200290097 /* Triangle.swift */,
+			);
+			path = "C4 - Layout";
+			sourceTree = "<group>";
+		};
+		FFA668CD28AA88E100290097 /* C1 - Overview */ = {
+			isa = PBXGroup;
+			children = (
+				FFA668CE28AA891A00290097 /* TapMeButton.swift */,
+			);
+			path = "C1 - Overview";
+			sourceTree = "<group>";
+		};
+		FFA668D028AA8AE700290097 /* C2 - View Updates */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6C76A28A651E40022C3FD /* C2 Exercise */,
+			);
+			path = "C2 - View Updates";
+			sourceTree = "<group>";
+		};
+		FFA668D328AA8FD200290097 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				FFA668D428AA900600290097 /* MyNavigationTitleKey.swift */,
+				FFA668D628AA90C300290097 /* MyNavigationView.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
 		FFF6C74228A4F12B0022C3FD = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +113,13 @@
 		FFF6C74D28A4F12B0022C3FD /* ThinkingInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				FFF6C74E28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift */,
-				FFF6C75028A4F12B0022C3FD /* ContentView.swift */,
+				FFA668CD28AA88E100290097 /* C1 - Overview */,
+				FFA668D028AA8AE700290097 /* C2 - View Updates */,
+				FFF6C77728A6843D0022C3FD /* C3 - Environment */,
+				FFA668C828AA69D200290097 /* C4 - Layout */,
 				FFF6C75228A4F12F0022C3FD /* Assets.xcassets */,
 				FFF6C75428A4F12F0022C3FD /* Preview Content */,
+				FFF6C74E28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift */,
 			);
 			path = ThinkingInSwiftUI;
 			sourceTree = "<group>";
@@ -65,6 +130,39 @@
 				FFF6C75528A4F12F0022C3FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFF6C76228A543F30022C3FD /* Knob */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6C75C28A537980022C3FD /* KnobShape.swift */,
+				FFF6C75E28A538A10022C3FD /* KnobContentView.swift */,
+				FFF6C75028A4F12B0022C3FD /* Knob.swift */,
+				FFF6C77A28A69EC40022C3FD /* ColorKey.swift */,
+				FFA668D128AA8E5C00290097 /* PointerSizeKey.swift */,
+			);
+			path = Knob;
+			sourceTree = "<group>";
+		};
+		FFF6C76A28A651E40022C3FD /* C2 Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6C76B28A652060022C3FD /* Photo.swift */,
+				FFF6C76D28A653CE0022C3FD /* Remote.swift */,
+				FFF6C76F28A65CCC0022C3FD /* LoadingError.swift */,
+				FFF6C77128A660850022C3FD /* ListView.swift */,
+				FFF6C77328A665070022C3FD /* PhotoView.swift */,
+			);
+			path = "C2 Exercise";
+			sourceTree = "<group>";
+		};
+		FFF6C77728A6843D0022C3FD /* C3 - Environment */ = {
+			isa = PBXGroup;
+			children = (
+				FFA668D328AA8FD200290097 /* Preferences */,
+				FFF6C76228A543F30022C3FD /* Knob */,
+			);
+			path = "C3 - Environment";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +235,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF6C75128A4F12B0022C3FD /* ContentView.swift in Sources */,
+				FFF6C77228A660850022C3FD /* ListView.swift in Sources */,
+				FFA668CC28AA785200290097 /* Triangle.swift in Sources */,
+				FFA668D728AA90C300290097 /* MyNavigationView.swift in Sources */,
+				FFF6C75128A4F12B0022C3FD /* Knob.swift in Sources */,
+				FFF6C75D28A537980022C3FD /* KnobShape.swift in Sources */,
+				FFF6C77428A665070022C3FD /* PhotoView.swift in Sources */,
+				FFF6C77028A65CCC0022C3FD /* LoadingError.swift in Sources */,
+				FFA668D228AA8E5C00290097 /* PointerSizeKey.swift in Sources */,
+				FFA668CA28AA69EF00290097 /* MeasureBehavior.swift in Sources */,
+				FFF6C75F28A538A10022C3FD /* KnobContentView.swift in Sources */,
+				FFA668CF28AA891A00290097 /* TapMeButton.swift in Sources */,
 				FFF6C74F28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift in Sources */,
+				FFF6C76C28A652060022C3FD /* Photo.swift in Sources */,
+				FFA668D528AA900600290097 /* MyNavigationTitleKey.swift in Sources */,
+				FFF6C76E28A653CE0022C3FD /* Remote.swift in Sources */,
+				FFF6C77B28A69EC40022C3FD /* ColorKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
