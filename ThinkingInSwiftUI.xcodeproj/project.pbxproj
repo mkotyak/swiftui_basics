@@ -10,6 +10,10 @@
 		FF697D5628AB82B7002C1418 /* TextLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D5528AB82B7002C1418 /* TextLayout.swift */; };
 		FF697D5828AB8EFA002C1418 /* OverlayAndBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D5728AB8EFA002C1418 /* OverlayAndBackground.swift */; };
 		FF697D5A28AB9AE7002C1418 /* DrawingModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D5928AB9AE7002C1418 /* DrawingModifiers.swift */; };
+		FF697D5C28ABB50B002C1418 /* AdaptiveVGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D5B28ABB50B002C1418 /* AdaptiveVGridExample.swift */; };
+		FF697D5E28ABDDDF002C1418 /* GridContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D5D28ABDDDF002C1418 /* GridContent.swift */; };
+		FF697D6128ABDFE7002C1418 /* FlexibleVGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D6028ABDFE7002C1418 /* FlexibleVGridExample.swift */; };
+		FF697D6328ABE5A0002C1418 /* FlexibleAndAdaptiveVGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D6228ABE5A0002C1418 /* FlexibleAndAdaptiveVGridExample.swift */; };
 		FFA668CA28AA69EF00290097 /* MeasureBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668C928AA69EF00290097 /* MeasureBehavior.swift */; };
 		FFA668CC28AA785200290097 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CB28AA785200290097 /* Triangle.swift */; };
 		FFA668CF28AA891A00290097 /* TapMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CE28AA891A00290097 /* TapMeButton.swift */; };
@@ -35,6 +39,10 @@
 		FF697D5528AB82B7002C1418 /* TextLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLayout.swift; sourceTree = "<group>"; };
 		FF697D5728AB8EFA002C1418 /* OverlayAndBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayAndBackground.swift; sourceTree = "<group>"; };
 		FF697D5928AB9AE7002C1418 /* DrawingModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingModifiers.swift; sourceTree = "<group>"; };
+		FF697D5B28ABB50B002C1418 /* AdaptiveVGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveVGridExample.swift; sourceTree = "<group>"; };
+		FF697D5D28ABDDDF002C1418 /* GridContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridContent.swift; sourceTree = "<group>"; };
+		FF697D6028ABDFE7002C1418 /* FlexibleVGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleVGridExample.swift; sourceTree = "<group>"; };
+		FF697D6228ABE5A0002C1418 /* FlexibleAndAdaptiveVGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleAndAdaptiveVGridExample.swift; sourceTree = "<group>"; };
 		FFA668C928AA69EF00290097 /* MeasureBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureBehavior.swift; sourceTree = "<group>"; };
 		FFA668CB28AA785200290097 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		FFA668CE28AA891A00290097 /* TapMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeButton.swift; sourceTree = "<group>"; };
@@ -68,6 +76,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF697D5F28ABDF80002C1418 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				FF697D5D28ABDDDF002C1418 /* GridContent.swift */,
+				FF697D5B28ABB50B002C1418 /* AdaptiveVGridExample.swift */,
+				FF697D6028ABDFE7002C1418 /* FlexibleVGridExample.swift */,
+				FF697D6228ABE5A0002C1418 /* FlexibleAndAdaptiveVGridExample.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
 		FFA668C828AA69D200290097 /* C4 - Layout */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +96,7 @@
 				FF697D5528AB82B7002C1418 /* TextLayout.swift */,
 				FF697D5728AB8EFA002C1418 /* OverlayAndBackground.swift */,
 				FF697D5928AB9AE7002C1418 /* DrawingModifiers.swift */,
+				FF697D5F28ABDF80002C1418 /* Grids */,
 			);
 			path = "C4 - Layout";
 			sourceTree = "<group>";
@@ -251,6 +271,8 @@
 				FFA668CC28AA785200290097 /* Triangle.swift in Sources */,
 				FFA668D728AA90C300290097 /* MyNavigationView.swift in Sources */,
 				FFF6C75128A4F12B0022C3FD /* Knob.swift in Sources */,
+				FF697D6328ABE5A0002C1418 /* FlexibleAndAdaptiveVGridExample.swift in Sources */,
+				FF697D6128ABDFE7002C1418 /* FlexibleVGridExample.swift in Sources */,
 				FFF6C75D28A537980022C3FD /* KnobShape.swift in Sources */,
 				FFF6C77428A665070022C3FD /* PhotoView.swift in Sources */,
 				FFF6C77028A65CCC0022C3FD /* LoadingError.swift in Sources */,
@@ -262,9 +284,11 @@
 				FFA668D928AB751200290097 /* ImageLayout.swift in Sources */,
 				FFF6C74F28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift in Sources */,
 				FFF6C76C28A652060022C3FD /* Photo.swift in Sources */,
+				FF697D5E28ABDDDF002C1418 /* GridContent.swift in Sources */,
 				FFA668D528AA900600290097 /* MyNavigationTitleKey.swift in Sources */,
 				FFF6C76E28A653CE0022C3FD /* Remote.swift in Sources */,
 				FFF6C77B28A69EC40022C3FD /* ColorKey.swift in Sources */,
+				FF697D5C28ABB50B002C1418 /* AdaptiveVGridExample.swift in Sources */,
 				FF697D5828AB8EFA002C1418 /* OverlayAndBackground.swift in Sources */,
 				FF697D5A28AB9AE7002C1418 /* DrawingModifiers.swift in Sources */,
 			);
