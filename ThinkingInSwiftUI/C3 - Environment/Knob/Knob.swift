@@ -4,7 +4,7 @@ struct Knob: View {
     @Binding var value: Double
     @Environment(\.colorScheme) var colorScheme
     @Environment(\.knobColor) var envColor
-    
+
     private var fillColor: Color {
         envColor ?? (colorScheme == .dark ? Color.white : Color.black)
     }

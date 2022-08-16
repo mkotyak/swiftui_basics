@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF697D5628AB82B7002C1418 /* TextLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D5528AB82B7002C1418 /* TextLayout.swift */; };
+		FF697D5828AB8EFA002C1418 /* OverlayAndBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D5728AB8EFA002C1418 /* OverlayAndBackground.swift */; };
+		FF697D5A28AB9AE7002C1418 /* DrawingModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D5928AB9AE7002C1418 /* DrawingModifiers.swift */; };
 		FFA668CA28AA69EF00290097 /* MeasureBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668C928AA69EF00290097 /* MeasureBehavior.swift */; };
 		FFA668CC28AA785200290097 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CB28AA785200290097 /* Triangle.swift */; };
 		FFA668CF28AA891A00290097 /* TapMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CE28AA891A00290097 /* TapMeButton.swift */; };
 		FFA668D228AA8E5C00290097 /* PointerSizeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668D128AA8E5C00290097 /* PointerSizeKey.swift */; };
 		FFA668D528AA900600290097 /* MyNavigationTitleKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668D428AA900600290097 /* MyNavigationTitleKey.swift */; };
 		FFA668D728AA90C300290097 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668D628AA90C300290097 /* MyNavigationView.swift */; };
+		FFA668D928AB751200290097 /* ImageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668D828AB751200290097 /* ImageLayout.swift */; };
 		FFF6C74F28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C74E28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift */; };
 		FFF6C75128A4F12B0022C3FD /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C75028A4F12B0022C3FD /* Knob.swift */; };
 		FFF6C75328A4F12F0022C3FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF6C75228A4F12F0022C3FD /* Assets.xcassets */; };
@@ -28,12 +32,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF697D5528AB82B7002C1418 /* TextLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLayout.swift; sourceTree = "<group>"; };
+		FF697D5728AB8EFA002C1418 /* OverlayAndBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayAndBackground.swift; sourceTree = "<group>"; };
+		FF697D5928AB9AE7002C1418 /* DrawingModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingModifiers.swift; sourceTree = "<group>"; };
 		FFA668C928AA69EF00290097 /* MeasureBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureBehavior.swift; sourceTree = "<group>"; };
 		FFA668CB28AA785200290097 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		FFA668CE28AA891A00290097 /* TapMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeButton.swift; sourceTree = "<group>"; };
 		FFA668D128AA8E5C00290097 /* PointerSizeKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerSizeKey.swift; sourceTree = "<group>"; };
 		FFA668D428AA900600290097 /* MyNavigationTitleKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationTitleKey.swift; sourceTree = "<group>"; };
 		FFA668D628AA90C300290097 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		FFA668D828AB751200290097 /* ImageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLayout.swift; sourceTree = "<group>"; };
 		FFF6C74B28A4F12B0022C3FD /* ThinkingInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkingInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF6C74E28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingInSwiftUIApp.swift; sourceTree = "<group>"; };
 		FFF6C75028A4F12B0022C3FD /* Knob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
@@ -65,6 +73,10 @@
 			children = (
 				FFA668C928AA69EF00290097 /* MeasureBehavior.swift */,
 				FFA668CB28AA785200290097 /* Triangle.swift */,
+				FFA668D828AB751200290097 /* ImageLayout.swift */,
+				FF697D5528AB82B7002C1418 /* TextLayout.swift */,
+				FF697D5728AB8EFA002C1418 /* OverlayAndBackground.swift */,
+				FF697D5928AB9AE7002C1418 /* DrawingModifiers.swift */,
 			);
 			path = "C4 - Layout";
 			sourceTree = "<group>";
@@ -245,12 +257,16 @@
 				FFA668D228AA8E5C00290097 /* PointerSizeKey.swift in Sources */,
 				FFA668CA28AA69EF00290097 /* MeasureBehavior.swift in Sources */,
 				FFF6C75F28A538A10022C3FD /* KnobContentView.swift in Sources */,
+				FF697D5628AB82B7002C1418 /* TextLayout.swift in Sources */,
 				FFA668CF28AA891A00290097 /* TapMeButton.swift in Sources */,
+				FFA668D928AB751200290097 /* ImageLayout.swift in Sources */,
 				FFF6C74F28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift in Sources */,
 				FFF6C76C28A652060022C3FD /* Photo.swift in Sources */,
 				FFA668D528AA900600290097 /* MyNavigationTitleKey.swift in Sources */,
 				FFF6C76E28A653CE0022C3FD /* Remote.swift in Sources */,
 				FFF6C77B28A69EC40022C3FD /* ColorKey.swift in Sources */,
+				FF697D5828AB8EFA002C1418 /* OverlayAndBackground.swift in Sources */,
+				FF697D5A28AB9AE7002C1418 /* DrawingModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
