@@ -11,15 +11,18 @@ struct Badge<Content: View>: View {
     }
 
     var body: some View {
-        if count != 0 {
-            content.overlay(
-                Circle()
-                    .fill(.red)
-                    .overlay(Text("\(count)"))
-                    .frame(width: 30, height: 30)
-                    .offset(x: 40, y: -23))
-        } else {
-            content
+        content.overlay(alignment: .topTrailing) {
+            ZStack {
+                if count != 0 {
+                    Circle()
+                        .fill(Color.red)
+                    Text("\(count)")
+                        .foregroundColor(.white)
+                        .font(.caption)
+                }
+            }
+            .offset(x: 12, y: -12)
+            .frame(width: 24, height: 24)
         }
     }
 }
