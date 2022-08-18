@@ -14,6 +14,16 @@
 		FF697D5E28ABDDDF002C1418 /* GridContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D5D28ABDDDF002C1418 /* GridContent.swift */; };
 		FF697D6128ABDFE7002C1418 /* FlexibleVGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D6028ABDFE7002C1418 /* FlexibleVGridExample.swift */; };
 		FF697D6328ABE5A0002C1418 /* FlexibleAndAdaptiveVGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D6228ABE5A0002C1418 /* FlexibleAndAdaptiveVGridExample.swift */; };
+		FF697D6528ABE922002C1418 /* CircularExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D6428ABE922002C1418 /* CircularExtention.swift */; };
+		FF697D6828ABE9EE002C1418 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D6728ABE9EE002C1418 /* TestView.swift */; };
+		FF697D6A28ABEA7D002C1418 /* CircleWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D6928ABEA7D002C1418 /* CircleWrapper.swift */; };
+		FF697D6C28ABEBD8002C1418 /* CircleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D6B28ABEBD8002C1418 /* CircleModifier.swift */; };
+		FF697D6F28AE2BA5002C1418 /* CircleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D6E28AE2BA5002C1418 /* CircleStyle.swift */; };
+		FF697D7128AE2D6E002C1418 /* StyledButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D7028AE2D6E002C1418 /* StyledButtonView.swift */; };
+		FF697D7428AE2F90002C1418 /* Collapsible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D7328AE2F90002C1418 /* Collapsible.swift */; };
+		FF697D7628AE3159002C1418 /* Exercise1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D7528AE3159002C1418 /* Exercise1.swift */; };
+		FF697D7A28AE44F9002C1418 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D7928AE44F9002C1418 /* Badge.swift */; };
+		FF697D7C28AE6453002C1418 /* Exercise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF697D7B28AE6453002C1418 /* Exercise2.swift */; };
 		FFA668CA28AA69EF00290097 /* MeasureBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668C928AA69EF00290097 /* MeasureBehavior.swift */; };
 		FFA668CC28AA785200290097 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CB28AA785200290097 /* Triangle.swift */; };
 		FFA668CF28AA891A00290097 /* TapMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CE28AA891A00290097 /* TapMeButton.swift */; };
@@ -43,6 +53,16 @@
 		FF697D5D28ABDDDF002C1418 /* GridContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridContent.swift; sourceTree = "<group>"; };
 		FF697D6028ABDFE7002C1418 /* FlexibleVGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleVGridExample.swift; sourceTree = "<group>"; };
 		FF697D6228ABE5A0002C1418 /* FlexibleAndAdaptiveVGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleAndAdaptiveVGridExample.swift; sourceTree = "<group>"; };
+		FF697D6428ABE922002C1418 /* CircularExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularExtention.swift; sourceTree = "<group>"; };
+		FF697D6728ABE9EE002C1418 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		FF697D6928ABEA7D002C1418 /* CircleWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWrapper.swift; sourceTree = "<group>"; };
+		FF697D6B28ABEBD8002C1418 /* CircleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleModifier.swift; sourceTree = "<group>"; };
+		FF697D6E28AE2BA5002C1418 /* CircleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleStyle.swift; sourceTree = "<group>"; };
+		FF697D7028AE2D6E002C1418 /* StyledButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledButtonView.swift; sourceTree = "<group>"; };
+		FF697D7328AE2F90002C1418 /* Collapsible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collapsible.swift; sourceTree = "<group>"; };
+		FF697D7528AE3159002C1418 /* Exercise1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1.swift; sourceTree = "<group>"; };
+		FF697D7928AE44F9002C1418 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		FF697D7B28AE6453002C1418 /* Exercise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise2.swift; sourceTree = "<group>"; };
 		FFA668C928AA69EF00290097 /* MeasureBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureBehavior.swift; sourceTree = "<group>"; };
 		FFA668CB28AA785200290097 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		FFA668CE28AA891A00290097 /* TapMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeButton.swift; sourceTree = "<group>"; };
@@ -87,6 +107,53 @@
 			path = Grids;
 			sourceTree = "<group>";
 		};
+		FF697D6628ABE9B7002C1418 /* Organizing Layout Code */ = {
+			isa = PBXGroup;
+			children = (
+				FF697D6428ABE922002C1418 /* CircularExtention.swift */,
+				FF697D6728ABE9EE002C1418 /* TestView.swift */,
+				FF697D6928ABEA7D002C1418 /* CircleWrapper.swift */,
+				FF697D6B28ABEBD8002C1418 /* CircleModifier.swift */,
+			);
+			path = "Organizing Layout Code";
+			sourceTree = "<group>";
+		};
+		FF697D6D28AE2B84002C1418 /* Sryling Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				FF697D6E28AE2BA5002C1418 /* CircleStyle.swift */,
+				FF697D7028AE2D6E002C1418 /* StyledButtonView.swift */,
+			);
+			path = "Sryling Buttons";
+			sourceTree = "<group>";
+		};
+		FF697D7228AE2F58002C1418 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				FF697D7728AE4340002C1418 /* 1 */,
+				FF697D7828AE434A002C1418 /* 2 */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		FF697D7728AE4340002C1418 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				FF697D7528AE3159002C1418 /* Exercise1.swift */,
+				FF697D7328AE2F90002C1418 /* Collapsible.swift */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		FF697D7828AE434A002C1418 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				FF697D7B28AE6453002C1418 /* Exercise2.swift */,
+				FF697D7928AE44F9002C1418 /* Badge.swift */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
 		FFA668C828AA69D200290097 /* C4 - Layout */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +164,9 @@
 				FF697D5728AB8EFA002C1418 /* OverlayAndBackground.swift */,
 				FF697D5928AB9AE7002C1418 /* DrawingModifiers.swift */,
 				FF697D5F28ABDF80002C1418 /* Grids */,
+				FF697D6628ABE9B7002C1418 /* Organizing Layout Code */,
+				FF697D6D28AE2B84002C1418 /* Sryling Buttons */,
+				FF697D7228AE2F58002C1418 /* Exercises */,
 			);
 			path = "C4 - Layout";
 			sourceTree = "<group>";
@@ -269,10 +339,15 @@
 			files = (
 				FFF6C77228A660850022C3FD /* ListView.swift in Sources */,
 				FFA668CC28AA785200290097 /* Triangle.swift in Sources */,
+				FF697D7C28AE6453002C1418 /* Exercise2.swift in Sources */,
 				FFA668D728AA90C300290097 /* MyNavigationView.swift in Sources */,
+				FF697D7128AE2D6E002C1418 /* StyledButtonView.swift in Sources */,
 				FFF6C75128A4F12B0022C3FD /* Knob.swift in Sources */,
+				FF697D6C28ABEBD8002C1418 /* CircleModifier.swift in Sources */,
+				FF697D7428AE2F90002C1418 /* Collapsible.swift in Sources */,
 				FF697D6328ABE5A0002C1418 /* FlexibleAndAdaptiveVGridExample.swift in Sources */,
 				FF697D6128ABDFE7002C1418 /* FlexibleVGridExample.swift in Sources */,
+				FF697D6A28ABEA7D002C1418 /* CircleWrapper.swift in Sources */,
 				FFF6C75D28A537980022C3FD /* KnobShape.swift in Sources */,
 				FFF6C77428A665070022C3FD /* PhotoView.swift in Sources */,
 				FFF6C77028A65CCC0022C3FD /* LoadingError.swift in Sources */,
@@ -280,7 +355,9 @@
 				FFA668CA28AA69EF00290097 /* MeasureBehavior.swift in Sources */,
 				FFF6C75F28A538A10022C3FD /* KnobContentView.swift in Sources */,
 				FF697D5628AB82B7002C1418 /* TextLayout.swift in Sources */,
+				FF697D6528ABE922002C1418 /* CircularExtention.swift in Sources */,
 				FFA668CF28AA891A00290097 /* TapMeButton.swift in Sources */,
+				FF697D7628AE3159002C1418 /* Exercise1.swift in Sources */,
 				FFA668D928AB751200290097 /* ImageLayout.swift in Sources */,
 				FFF6C74F28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift in Sources */,
 				FFF6C76C28A652060022C3FD /* Photo.swift in Sources */,
@@ -290,6 +367,9 @@
 				FFF6C77B28A69EC40022C3FD /* ColorKey.swift in Sources */,
 				FF697D5C28ABB50B002C1418 /* AdaptiveVGridExample.swift in Sources */,
 				FF697D5828AB8EFA002C1418 /* OverlayAndBackground.swift in Sources */,
+				FF697D6828ABE9EE002C1418 /* TestView.swift in Sources */,
+				FF697D6F28AE2BA5002C1418 /* CircleStyle.swift in Sources */,
+				FF697D7A28AE44F9002C1418 /* Badge.swift in Sources */,
 				FF697D5A28AB9AE7002C1418 /* DrawingModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
