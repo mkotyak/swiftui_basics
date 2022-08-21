@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct Exercise1: View {
-    @State var expanded: Bool = true
+    @State private var expanded: Bool = true
     let rectangleParameters: [(Color, CGFloat)] = [
         (Color.black, 100),
         (Color.blue, 70),
