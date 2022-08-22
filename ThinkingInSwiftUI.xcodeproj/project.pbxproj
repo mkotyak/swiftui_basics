@@ -34,6 +34,9 @@
 		FF86691E28B35FB4009C09B6 /* CollectSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86691D28B35FB4009C09B6 /* CollectSize.swift */; };
 		FF86692028B360B7009C09B6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86691F28B360B7009C09B6 /* Stack.swift */; };
 		FF86692228B3650E009C09B6 /* CustomLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86692128B3650E009C09B6 /* CustomLayoutView.swift */; };
+		FF86692928B3730D009C09B6 /* WidthPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86692828B3730D009C09B6 /* WidthPreference.swift */; };
+		FF86692B28B3754E009C09B6 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86692A28B3754E009C09B6 /* Table.swift */; };
+		FF86692F28B377A2009C09B6 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86692E28B377A2009C09B6 /* TableView.swift */; };
 		FFA668CA28AA69EF00290097 /* MeasureBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668C928AA69EF00290097 /* MeasureBehavior.swift */; };
 		FFA668CC28AA785200290097 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CB28AA785200290097 /* Triangle.swift */; };
 		FFA668CF28AA891A00290097 /* TapMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CE28AA891A00290097 /* TapMeButton.swift */; };
@@ -83,6 +86,9 @@
 		FF86691D28B35FB4009C09B6 /* CollectSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectSize.swift; sourceTree = "<group>"; };
 		FF86691F28B360B7009C09B6 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		FF86692128B3650E009C09B6 /* CustomLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutView.swift; sourceTree = "<group>"; };
+		FF86692828B3730D009C09B6 /* WidthPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthPreference.swift; sourceTree = "<group>"; };
+		FF86692A28B3754E009C09B6 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		FF86692E28B377A2009C09B6 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		FFA668C928AA69EF00290097 /* MeasureBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureBehavior.swift; sourceTree = "<group>"; };
 		FFA668CB28AA785200290097 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		FFA668CE28AA891A00290097 /* TapMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeButton.swift; sourceTree = "<group>"; };
@@ -181,6 +187,7 @@
 				FF697D8728AE8639002C1418 /* Anchor */,
 				FF86691728AFC87B009C09B6 /* MatchedGeometryEffect */,
 				FF86691A28B35E86009C09B6 /* Custom Layout */,
+				FF86692728B372A9009C09B6 /* Exercises */,
 			);
 			path = "C5 - Custom Layout";
 			sourceTree = "<group>";
@@ -221,6 +228,16 @@
 				FF86692128B3650E009C09B6 /* CustomLayoutView.swift */,
 			);
 			path = "Custom Layout";
+			sourceTree = "<group>";
+		};
+		FF86692728B372A9009C09B6 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				FF86692828B3730D009C09B6 /* WidthPreference.swift */,
+				FF86692A28B3754E009C09B6 /* Table.swift */,
+				FF86692E28B377A2009C09B6 /* TableView.swift */,
+			);
+			path = Exercises;
 			sourceTree = "<group>";
 		};
 		FFA668C828AA69D200290097 /* C4 - Layout */ = {
@@ -408,11 +425,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFF6C77228A660850022C3FD /* ListView.swift in Sources */,
+				FF86692B28B3754E009C09B6 /* Table.swift in Sources */,
 				FF86692228B3650E009C09B6 /* CustomLayoutView.swift in Sources */,
 				FFA668CC28AA785200290097 /* Triangle.swift in Sources */,
 				FF697D7C28AE6453002C1418 /* Exercise2.swift in Sources */,
+				FF86692928B3730D009C09B6 /* WidthPreference.swift in Sources */,
 				FFA668D728AA90C300290097 /* MyNavigationView.swift in Sources */,
 				FF697D7128AE2D6E002C1418 /* StyledButtonView.swift in Sources */,
+				FF86692F28B377A2009C09B6 /* TableView.swift in Sources */,
 				FFF6C75128A4F12B0022C3FD /* Knob.swift in Sources */,
 				FF697D6C28ABEBD8002C1418 /* CircleModifier.swift in Sources */,
 				FF697D7428AE2F90002C1418 /* Collapsible.swift in Sources */,
