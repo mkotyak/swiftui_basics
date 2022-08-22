@@ -14,7 +14,6 @@ struct TabsWithMatchedGeometryEffect: View {
         HStack {
             ForEach(tabs.indices) { tabIndex in
                 Button(self.tabs[tabIndex]) {
-//                    self.selectedTabIndex = tabIndex
                     withAnimation(.default) {
                         self.selectedTabIndex = tabIndex
                     }
