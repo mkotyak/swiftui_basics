@@ -37,6 +37,20 @@
 		FF86692928B3730D009C09B6 /* WidthPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86692828B3730D009C09B6 /* WidthPreference.swift */; };
 		FF86692B28B3754E009C09B6 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86692A28B3754E009C09B6 /* Table.swift */; };
 		FF86692F28B377A2009C09B6 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86692E28B377A2009C09B6 /* TableView.swift */; };
+		FF86693328B3A1B7009C09B6 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86693228B3A1B7009C09B6 /* AnimatedButton.swift */; };
+		FF86693528B3A436009C09B6 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86693428B3A436009C09B6 /* LoadingIndicator.swift */; };
+		FF86693828B3A7FD009C09B6 /* Transitionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86693728B3A7FD009C09B6 /* Transitionview.swift */; };
+		FF86693B28B3B52F009C09B6 /* MatchedGeometryEffectExamle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86693A28B3B52F009C09B6 /* MatchedGeometryEffectExamle.swift */; };
+		FF86694028B3C8D2009C09B6 /* LoadingIndicatorV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86693F28B3C8D2009C09B6 /* LoadingIndicatorV2.swift */; };
+		FF86694328B3CB49009C09B6 /* ShakeAnimatableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86694228B3CB49009C09B6 /* ShakeAnimatableModifier.swift */; };
+		FF86694528B3CC31009C09B6 /* ShakingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86694428B3CC31009C09B6 /* ShakingView.swift */; };
+		FF86694728B4A04E009C09B6 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86694628B4A04E009C09B6 /* ShakeEffect.swift */; };
+		FF86694A28B4A75B009C09B6 /* BlurModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86694928B4A75B009C09B6 /* BlurModifier.swift */; };
+		FF86694C28B4A813009C09B6 /* BlurTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86694B28B4A813009C09B6 /* BlurTransitionView.swift */; };
+		FF86694F28B4AC55009C09B6 /* BounceAnimatableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86694E28B4AC55009C09B6 /* BounceAnimatableModifier.swift */; };
+		FF86695128B4AE68009C09B6 /* BounceAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86695028B4AE68009C09B6 /* BounceAnimationView.swift */; };
+		FF86695328B4B2A9009C09B6 /* BounceTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86695228B4B2A9009C09B6 /* BounceTransition.swift */; };
+		FF86695528B4B733009C09B6 /* BounceTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86695428B4B733009C09B6 /* BounceTransitionView.swift */; };
 		FFA668CA28AA69EF00290097 /* MeasureBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668C928AA69EF00290097 /* MeasureBehavior.swift */; };
 		FFA668CC28AA785200290097 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CB28AA785200290097 /* Triangle.swift */; };
 		FFA668CF28AA891A00290097 /* TapMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA668CE28AA891A00290097 /* TapMeButton.swift */; };
@@ -89,6 +103,20 @@
 		FF86692828B3730D009C09B6 /* WidthPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthPreference.swift; sourceTree = "<group>"; };
 		FF86692A28B3754E009C09B6 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
 		FF86692E28B377A2009C09B6 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		FF86693228B3A1B7009C09B6 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		FF86693428B3A436009C09B6 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		FF86693728B3A7FD009C09B6 /* Transitionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitionview.swift; sourceTree = "<group>"; };
+		FF86693A28B3B52F009C09B6 /* MatchedGeometryEffectExamle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectExamle.swift; sourceTree = "<group>"; };
+		FF86693F28B3C8D2009C09B6 /* LoadingIndicatorV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorV2.swift; sourceTree = "<group>"; };
+		FF86694228B3CB49009C09B6 /* ShakeAnimatableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimatableModifier.swift; sourceTree = "<group>"; };
+		FF86694428B3CC31009C09B6 /* ShakingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingView.swift; sourceTree = "<group>"; };
+		FF86694628B4A04E009C09B6 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		FF86694928B4A75B009C09B6 /* BlurModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurModifier.swift; sourceTree = "<group>"; };
+		FF86694B28B4A813009C09B6 /* BlurTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurTransitionView.swift; sourceTree = "<group>"; };
+		FF86694E28B4AC55009C09B6 /* BounceAnimatableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceAnimatableModifier.swift; sourceTree = "<group>"; };
+		FF86695028B4AE68009C09B6 /* BounceAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceAnimationView.swift; sourceTree = "<group>"; };
+		FF86695228B4B2A9009C09B6 /* BounceTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceTransition.swift; sourceTree = "<group>"; };
+		FF86695428B4B733009C09B6 /* BounceTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceTransitionView.swift; sourceTree = "<group>"; };
 		FFA668C928AA69EF00290097 /* MeasureBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureBehavior.swift; sourceTree = "<group>"; };
 		FFA668CB28AA785200290097 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		FFA668CE28AA891A00290097 /* TapMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeButton.swift; sourceTree = "<group>"; };
@@ -240,6 +268,83 @@
 			path = Exercises;
 			sourceTree = "<group>";
 		};
+		FF86693028B37BF0009C09B6 /* C6 - Animation */ = {
+			isa = PBXGroup;
+			children = (
+				FF86693128B3A0B9009C09B6 /* Implisit Animation  */,
+				FF86693628B3A6DE009C09B6 /* Transition */,
+				FF86693928B3B4A5009C09B6 /* Matched Geometry Effect */,
+				FF86693E28B3C835009C09B6 /* Explicit Animation */,
+				FF86694128B3CA8E009C09B6 /* Custom Animation */,
+				FF86694828B4A439009C09B6 /* Custom Transition  */,
+				FF86694D28B4AC37009C09B6 /* Exercises */,
+			);
+			path = "C6 - Animation";
+			sourceTree = "<group>";
+		};
+		FF86693128B3A0B9009C09B6 /* Implisit Animation  */ = {
+			isa = PBXGroup;
+			children = (
+				FF86693228B3A1B7009C09B6 /* AnimatedButton.swift */,
+				FF86693428B3A436009C09B6 /* LoadingIndicator.swift */,
+			);
+			path = "Implisit Animation ";
+			sourceTree = "<group>";
+		};
+		FF86693628B3A6DE009C09B6 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				FF86693728B3A7FD009C09B6 /* Transitionview.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		FF86693928B3B4A5009C09B6 /* Matched Geometry Effect */ = {
+			isa = PBXGroup;
+			children = (
+				FF86693A28B3B52F009C09B6 /* MatchedGeometryEffectExamle.swift */,
+			);
+			path = "Matched Geometry Effect";
+			sourceTree = "<group>";
+		};
+		FF86693E28B3C835009C09B6 /* Explicit Animation */ = {
+			isa = PBXGroup;
+			children = (
+				FF86693F28B3C8D2009C09B6 /* LoadingIndicatorV2.swift */,
+			);
+			path = "Explicit Animation";
+			sourceTree = "<group>";
+		};
+		FF86694128B3CA8E009C09B6 /* Custom Animation */ = {
+			isa = PBXGroup;
+			children = (
+				FF86694228B3CB49009C09B6 /* ShakeAnimatableModifier.swift */,
+				FF86694428B3CC31009C09B6 /* ShakingView.swift */,
+				FF86694628B4A04E009C09B6 /* ShakeEffect.swift */,
+			);
+			path = "Custom Animation";
+			sourceTree = "<group>";
+		};
+		FF86694828B4A439009C09B6 /* Custom Transition  */ = {
+			isa = PBXGroup;
+			children = (
+				FF86694928B4A75B009C09B6 /* BlurModifier.swift */,
+				FF86694B28B4A813009C09B6 /* BlurTransitionView.swift */,
+			);
+			path = "Custom Transition ";
+			sourceTree = "<group>";
+		};
+		FF86694D28B4AC37009C09B6 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				FF86694E28B4AC55009C09B6 /* BounceAnimatableModifier.swift */,
+				FF86695228B4B2A9009C09B6 /* BounceTransition.swift */,
+				FF86695028B4AE68009C09B6 /* BounceAnimationView.swift */,
+				FF86695428B4B733009C09B6 /* BounceTransitionView.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
 		FFA668C828AA69D200290097 /* C4 - Layout */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +411,7 @@
 				FFF6C77728A6843D0022C3FD /* C3 - Environment */,
 				FFA668C828AA69D200290097 /* C4 - Layout */,
 				FF697D7D28AE709D002C1418 /* C5 - Custom Layout */,
+				FF86693028B37BF0009C09B6 /* C6 - Animation */,
 				FFF6C75228A4F12F0022C3FD /* Assets.xcassets */,
 				FFF6C75428A4F12F0022C3FD /* Preview Content */,
 				FFF6C74E28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift */,
@@ -425,8 +531,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFF6C77228A660850022C3FD /* ListView.swift in Sources */,
+				FF86694A28B4A75B009C09B6 /* BlurModifier.swift in Sources */,
 				FF86692B28B3754E009C09B6 /* Table.swift in Sources */,
 				FF86692228B3650E009C09B6 /* CustomLayoutView.swift in Sources */,
+				FF86693828B3A7FD009C09B6 /* Transitionview.swift in Sources */,
 				FFA668CC28AA785200290097 /* Triangle.swift in Sources */,
 				FF697D7C28AE6453002C1418 /* Exercise2.swift in Sources */,
 				FF86692928B3730D009C09B6 /* WidthPreference.swift in Sources */,
@@ -434,32 +542,44 @@
 				FF697D7128AE2D6E002C1418 /* StyledButtonView.swift in Sources */,
 				FF86692F28B377A2009C09B6 /* TableView.swift in Sources */,
 				FFF6C75128A4F12B0022C3FD /* Knob.swift in Sources */,
+				FF86693528B3A436009C09B6 /* LoadingIndicator.swift in Sources */,
 				FF697D6C28ABEBD8002C1418 /* CircleModifier.swift in Sources */,
 				FF697D7428AE2F90002C1418 /* Collapsible.swift in Sources */,
 				FF697D6328ABE5A0002C1418 /* FlexibleAndAdaptiveVGridExample.swift in Sources */,
+				FF86695528B4B733009C09B6 /* BounceTransitionView.swift in Sources */,
 				FF86691E28B35FB4009C09B6 /* CollectSize.swift in Sources */,
 				FF697D8928AE871C002C1418 /* BoundsKey.swift in Sources */,
 				FF697D6128ABDFE7002C1418 /* FlexibleVGridExample.swift in Sources */,
+				FF86694028B3C8D2009C09B6 /* LoadingIndicatorV2.swift in Sources */,
 				FF697D6A28ABEA7D002C1418 /* CircleWrapper.swift in Sources */,
 				FFF6C75D28A537980022C3FD /* KnobShape.swift in Sources */,
+				FF86694F28B4AC55009C09B6 /* BounceAnimatableModifier.swift in Sources */,
 				FFF6C77428A665070022C3FD /* PhotoView.swift in Sources */,
+				FF86695328B4B2A9009C09B6 /* BounceTransition.swift in Sources */,
 				FF697D7F28AE790B002C1418 /* RectangleWithGeometryReader.swift in Sources */,
 				FFF6C77028A65CCC0022C3FD /* LoadingError.swift in Sources */,
 				FFA668D228AA8E5C00290097 /* PointerSizeKey.swift in Sources */,
 				FFA668CA28AA69EF00290097 /* MeasureBehavior.swift in Sources */,
 				FFF6C75F28A538A10022C3FD /* KnobContentView.swift in Sources */,
 				FF86691928AFC8A8009C09B6 /* TabsWithMatchedGeometryEffect.swift in Sources */,
+				FF86694528B3CC31009C09B6 /* ShakingView.swift in Sources */,
+				FF86695128B4AE68009C09B6 /* BounceAnimationView.swift in Sources */,
 				FF86691C28B35EA9009C09B6 /* CollectSizePreference.swift in Sources */,
+				FF86694328B3CB49009C09B6 /* ShakeAnimatableModifier.swift in Sources */,
 				FF697D5628AB82B7002C1418 /* TextLayout.swift in Sources */,
 				FF697D6528ABE922002C1418 /* CircularExtention.swift in Sources */,
 				FFA668CF28AA891A00290097 /* TapMeButton.swift in Sources */,
+				FF86693328B3A1B7009C09B6 /* AnimatedButton.swift in Sources */,
 				FF697D7628AE3159002C1418 /* Exercise1.swift in Sources */,
+				FF86694C28B4A813009C09B6 /* BlurTransitionView.swift in Sources */,
 				FF86692028B360B7009C09B6 /* Stack.swift in Sources */,
+				FF86693B28B3B52F009C09B6 /* MatchedGeometryEffectExamle.swift in Sources */,
 				FFA668D928AB751200290097 /* ImageLayout.swift in Sources */,
 				FFF6C74F28A4F12B0022C3FD /* ThinkingInSwiftUIApp.swift in Sources */,
 				FFF6C76C28A652060022C3FD /* Photo.swift in Sources */,
 				FF697D5E28ABDDDF002C1418 /* GridContent.swift in Sources */,
 				FF697D8128AE7E80002C1418 /* TextWithCircle.swift in Sources */,
+				FF86694728B4A04E009C09B6 /* ShakeEffect.swift in Sources */,
 				FFA668D528AA900600290097 /* MyNavigationTitleKey.swift in Sources */,
 				FF697D8628AE8626002C1418 /* CircleWithGeometryReader.swift in Sources */,
 				FFF6C76E28A653CE0022C3FD /* Remote.swift in Sources */,

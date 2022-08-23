@@ -21,9 +21,13 @@ struct Table<Cell: View>: View {
                         self.cellFor(row: row, column: column)
                     }
                 }
-                .background(row.isMultiple(of: 2) ? Color(.secondarySystemBackground) : Color(.systemBackground))
+                .background(
+                    row.isMultiple(of: 2) ? Color(.secondarySystemBackground) : Color(.systemBackground)
+                )
             }
         }
-        .onPreferenceChange(WidthPreference.self) { self.columnWidths = $0 }
+        .onPreferenceChange(WidthPreference.self) {
+            self.columnWidths = $0
+        }
     }
 }

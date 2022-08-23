@@ -4,7 +4,7 @@ import SwiftUI
 struct ThinkingInSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            KnobContentView()
+            GraphView()
         }
     }
 }
